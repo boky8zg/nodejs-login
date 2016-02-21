@@ -1,0 +1,14 @@
+{% extends '_layout.twig' %}
+
+{% block content %}
+	<div class="container">
+	{% if user %}
+		<p>You are currently logged in as {{ user.username }}</p>
+		<a href="/logout">Logout</a>
+    {% else %}
+		<a href="/login">Login</a>
+		<br>
+		<a href="/register">Register</a>
+	{% endif %}
+	</div>
+{% endblock %}
