@@ -1,0 +1,10 @@
+{
+  "name": "NodejsLogin",
+  "version": "0.0.0",
+  "description": "NodejsLogin",
+  "main": "server.js",
+  "author": {
+    "name": "Mario",
+    "email": ""
+  }
+}
